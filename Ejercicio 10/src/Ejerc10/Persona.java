@@ -1,9 +1,7 @@
 package Ejerc10;
 
 public class Persona {
-	private String nombre;
-	private String domicilio;
-	private String horario;
+	private String nombre,domicilio,horario;
 	
 	public Persona(String nombre,String domicilio,String horario) {
 		this.nombre=nombre;
@@ -11,8 +9,9 @@ public class Persona {
 		this.horario=horario;
 	}
 	
-	public Persona(String nombre) {
+	public Persona(String nombre, String horario) {
 		this.nombre=nombre;
+		this.horario=horario;
 	}
 	
 	public void setNombre(String nom) {

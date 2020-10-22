@@ -2,27 +2,33 @@ package Ejerc10;
 
 public class Estudiante extends Persona {
 
-	private int grado;
-	private char grupo;
+	private String grado,grupo;
 	
-	public Estudiante(String nombre, String domicilio, String horario, int grado,char grupo) {
+	public Estudiante(String nombre, String domicilio, String horario, String grado,String grupo) {
 		super(nombre, domicilio, horario);
 		this.grado=grado;
 		this.grupo=grupo;
 	}
 	
-	public void setGrado(int grad) {
+	public Estudiante(String nom, String horario, String grupo, String grado) {
+		super(nom,horario);
+		this.grado=grado;
+		this.grupo=grupo;
+	}
+	
+	
+	public void setGrado(String grad) {
 		this.grado=grad;
 	}
 	
-	public void setGrupo(char grup) {
+	public void setGrupo(String grup) {
 		grupo=grup;
 	}
 	
-	public char getGrupo() {
+	public String getGrupo() {
 		return grupo;
 	}
-	public int getGrado() {
+	public String getGrado() {
 		return grado;
 	}
 	
