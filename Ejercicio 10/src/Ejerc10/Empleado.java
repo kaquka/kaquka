@@ -1,0 +1,26 @@
+package Ejerc10;
+
+public class Empleado extends Persona {
+
+	private String jefe;
+	
+	public Empleado(String nombre, String domicilio, String horario,String jefe) {
+		super(nombre, domicilio, horario);	
+		this.jefe=jefe;
+	}
+	
+	public void setJefe(String jef) {
+		jefe=jef;
+	}
+	
+	public String getJefe() {
+		return jefe;
+	}
+	
+	public void cobrar() {
+		System.out.println("PAGAME HIJO DE PUTA"+jefe);
+	}
+
+	
+	
+}
