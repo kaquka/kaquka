@@ -11,6 +11,10 @@ public class Persona {
 		this.horario=horario;
 	}
 	
+	public Persona(String nombre) {
+		this.nombre=nombre;
+	}
+	
 	public void setNombre(String nom) {
 		nombre=nom;
 	}

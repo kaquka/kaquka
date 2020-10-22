@@ -9,6 +9,10 @@ public class Empleado extends Persona {
 		this.jefe=jefe;
 	}
 	
+	public Empleado(String nombre, String domicilio, String horario) {
+		super(nombre, domicilio, horario);	
+	}
+	
 	public void setJefe(String jef) {
 		jefe=jef;
 	}
