@@ -12,7 +12,7 @@ public class Estudiante extends Persona {
 	}
 	
 	public void setGrado(int grad) {
-		grado=grad;
+		this.grado=grad;
 	}
 	
 	public void setGrupo(char grup) {
