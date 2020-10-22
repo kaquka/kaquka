@@ -21,7 +21,7 @@ public class Profesor extends Empleado {
 		return carrera;
 	}
 	
-	public void enseñar() {
+	public void enseniar() {
 		System.out.println("Leo diapositivas");
 	}
 	
