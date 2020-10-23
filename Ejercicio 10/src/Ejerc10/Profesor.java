@@ -1,17 +1,13 @@
 package Ejerc10;
-//agregar ID ;;; agregar info;;;atributo grupo
+
 public class Profesor extends Empleado {
 
 	private String carrera,ID;
 	
-	public Profesor(String nombre, String domicilio, String horario) {
-		super(nombre, domicilio, horario);
-	}
-	
-	public Profesor(String nombre, String domicilio, String horario, String carrera, String ID) {
-		super(nombre, domicilio, horario);
-		this.carrera=carrera;
-		this.ID=ID;
+	public Profesor(String nom,String ID, String carr, String hora) {
+		super(nom,hora);
+		carrera=carr;
+		this.ID= ID;
 	}
 	
 	public void setID(String I) {
@@ -32,7 +28,7 @@ public class Profesor extends Empleado {
 	
 	public String [] info() {
 		
-		String []info= {this.getCarrera(),this.getID()};
+		String []info= {this.getNombre(),this.getID(),this.getCarrera(),this.getHorario()};
 		
 		return info;
 	}

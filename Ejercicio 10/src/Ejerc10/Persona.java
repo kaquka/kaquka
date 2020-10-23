@@ -1,5 +1,5 @@
 package Ejerc10;
-//cambiar a abstracta;;; profesion abstactaXhorario ;;;;
+
 public class Persona {
 	private String nombre,domicilio,horario;
 	
