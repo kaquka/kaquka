@@ -1,13 +1,14 @@
 package Ejerc10;
-
+//agregar ID ;;; modificar info
 public class Estudiante extends Persona {
 
-	private String grado,grupo;
+	private String grado,grupo,ID;
 	
-	public Estudiante(String nombre, String domicilio, String horario, String grado,String grupo) {
+	public Estudiante(String nombre, String domicilio, String horario, String grado,String grupo,String ID) {
 		super(nombre, domicilio, horario);
 		this.grado=grado;
 		this.grupo=grupo;
+		this.ID=ID;
 	}
 	
 	public Estudiante(String nom, String horario, String grupo, String grado) {
@@ -15,6 +16,8 @@ public class Estudiante extends Persona {
 		this.grado=grado;
 		this.grupo=grupo;
 	}
+	
+	//
 	
 	
 	public void setGrado(String grad) {
@@ -34,7 +37,7 @@ public class Estudiante extends Persona {
 	
 	public String [] info() {
 		
-		String []info= {this.getNombre(),this.getGrado(),this.getGrupo(),this.getHorario()};
+		String []info= {this.getNombre(),this.getGrado(),this.getGrupo(),this.ID};
 		
 		return info;
 	}
