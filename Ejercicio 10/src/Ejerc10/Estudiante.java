@@ -32,6 +32,13 @@ public class Estudiante extends Persona {
 		return grado;
 	}
 	
+	public String [] info() {
+		
+		String []info= {this.getNombre(),this.getGrado(),this.getGrupo(),this.getHorario()};
+		
+		return info;
+	}
+	
 	public void estudiar() {
 		System.out.println("Hola, estoy estudiando para pendejo");
 	}

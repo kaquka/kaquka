@@ -1,7 +1,7 @@
 package Ejerc10;
 
 import javax.swing.*;
-
+import javax.swing.table.DefaultTableModel;
 import java.awt.Graphics;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -36,11 +36,13 @@ public class Ventana extends JFrame{
 
 class Panel_1 extends JPanel{
 	
+	
 	ArrayList <Estudiante> Lista_E = new ArrayList <Estudiante>();  //Para poder agregarlos a la tabla
-	
 	private String [] horario= {"Matutino","Vespertino","Nocturno"};
+	private String [] columnas= {"Nombre","Grado","Grupo","Horario"};
 	
-	
+	DefaultTableModel Modelo_tablaE = new DefaultTableModel(columnas,1); //objeto que implementa la interfaz "TlableModel"
+	JTable TablaE = new JTable(Modelo_tablaE);
 	
 	JLabel Alum_nom = new JLabel("Nombre");
 	JLabel Alum_grad = new JLabel("Grado");
@@ -79,8 +81,11 @@ class Panel_1 extends JPanel{
 		add(camp_grado);
 		add(camp_grupo);
 		add(camp_hora);
-
-		Lista Evento_lista= new Lista();
+		
+		TablaE.setBounds(200, 50, 300, 450);
+		add(TablaE);
+		
+		ListaE Evento_lista= new ListaE();
 			
 		botonA.setBounds(90, 200, 80, 20);
 		botonA.addActionListener(Evento_lista);
@@ -88,7 +93,7 @@ class Panel_1 extends JPanel{
 		
 	}
 	
-	private class Lista implements ActionListener{
+	private class ListaE implements ActionListener{
 
 		public void actionPerformed(ActionEvent e) {
 			
@@ -97,10 +102,10 @@ class Panel_1 extends JPanel{
 			
 			Lista_E.add(estudiante);
 			
-			
+			Modelo_tablaE.addRow(estudiante.info());
 		}
 		
-		
+
 	}
 	
 	
