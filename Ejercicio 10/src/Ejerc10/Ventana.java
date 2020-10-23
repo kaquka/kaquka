@@ -2,7 +2,11 @@ package Ejerc10;
 
 import javax.swing.*;
 import javax.swing.table.DefaultTableModel;
+
+import java.awt.Color;
+import java.awt.Font;
 import java.awt.Graphics;
+import java.awt.Graphics2D;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.util.ArrayList;
@@ -62,20 +66,20 @@ class Panel_1 extends JPanel{
 		
 		setLayout(null);		//desabilita el diseño por defecto del panel
 		
-		Alum_nom.setBounds(30, 70, 50, 20);
-		Alum_grad.setBounds(30, 100, 50, 20);
-		Alum_grup.setBounds(30, 130, 50, 20);
-		Alum_hora.setBounds(30, 160, 50, 20);
+		Alum_nom.setBounds(30, 60, 50, 20);
+		Alum_grad.setBounds(30, 90, 50, 20);
+		Alum_grup.setBounds(30, 120, 50, 20);
+		Alum_hora.setBounds(30, 150, 50, 20);
 	
 		add(Alum_nom);
 		add(Alum_grad);
 		add(Alum_grup);
 		add(Alum_hora);
 		
-		camp_nombre.setBounds(90, 70, 80, 20);
-		camp_grado.setBounds(90, 100, 80, 20);
-		camp_grupo.setBounds(90, 130, 80, 20);
-		camp_hora.setBounds(90, 160, 80, 20);
+		camp_nombre.setBounds(90, 60, 80, 20);
+		camp_grado.setBounds(90, 90, 80, 20);
+		camp_grupo.setBounds(90, 120, 80, 20);
+		camp_hora.setBounds(90, 150, 80, 20);
 	
 		add(camp_nombre);
 		add(camp_grado);
@@ -83,6 +87,7 @@ class Panel_1 extends JPanel{
 		add(camp_hora);
 		
 		TablaE.setBounds(200, 50, 300, 450);
+		TablaE.setBackground(new Color(204,238,255));
 		add(TablaE);
 		
 		ListaE Evento_lista= new ListaE();
@@ -103,6 +108,10 @@ class Panel_1 extends JPanel{
 			Lista_E.add(estudiante);
 			
 			Modelo_tablaE.addRow(estudiante.info());
+			
+			camp_nombre.setText("");
+			camp_grupo.setText("");
+			camp_grado.setText("");
 		}
 		
 
@@ -113,6 +122,13 @@ class Panel_1 extends JPanel{
 		
 		super.paintComponent(g);
 		
+		setBackground(Color.LIGHT_GRAY);
+		
+		Graphics2D g2= (Graphics2D) g;
+		
+		g2.setFont(new Font("Arial",Font.BOLD,20));
+		g2.setColor(new Color(59,0,179));
+		g2.drawString("Alta Alumnos",25, 25);
 		
 	}
 	
