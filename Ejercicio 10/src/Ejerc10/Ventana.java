@@ -1,6 +1,7 @@
 package Ejerc10;
 
 import javax.swing.*;
+
 import javax.swing.table.DefaultTableModel;
 import java.awt.Color;
 import java.awt.Font;
@@ -63,7 +64,7 @@ class Panel_1 extends JPanel{
 	JButton botonA = new JButton("Aceptar");
 	
 	//Para la segunda lista:
-	ArrayList <Profesor> Lista_P = new ArrayList <Profesor>();  //Para poder agregarlos a la tabla
+	public ArrayList <Profesor> Lista_P = new ArrayList <Profesor>();  //Para poder agregarlos a la tabla
 	private String [] columnasP= {"Nombre","ID","Carrera","Horario"};
 
 	DefaultTableModel Modelo_tablaP = new DefaultTableModel(columnasP,0); //objeto que implementa la interfaz "TlableModel"
@@ -163,8 +164,8 @@ class Panel_1 extends JPanel{
 				JOptionPane.showConfirmDialog(null, "Campo de nombre o ID vacios");
 			}
 			
-			camp_nombre.setText("");
-			camp_ID.setText("");
+			camp_nombreP.setText("");
+			camp_IDP.setText("");
 		}
 	}
 	
