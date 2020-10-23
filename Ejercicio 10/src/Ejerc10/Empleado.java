@@ -22,7 +22,7 @@ public class Empleado extends Persona {
 	}
 	
 	public void cobrar() {
-		System.out.println("PAGAME HIJO DE PUTA"+jefe);
+		System.out.println(getJefe()+" PAGAME HIJO DE PUTA");
 	}
 
 	

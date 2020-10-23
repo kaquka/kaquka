@@ -39,7 +39,7 @@ public class Persona {
 	}
 	
 	public void asistir() {
-		System.out.println("Asisto no me lo creo locooooo");
+		System.out.println("Soy "+getNombre()+" y yo asisto");
 	}
 	
 	public String toString(){
