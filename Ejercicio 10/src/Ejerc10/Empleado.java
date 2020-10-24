@@ -4,6 +4,10 @@ public class Empleado extends Persona {
 
 	private String jefe;
 	
+	public Empleado(String nombre, String domicilio, String horario) {
+		super(nombre, domicilio, horario);	
+	}
+	
 	public Empleado(String nombre, String domicilio, String horario,String jefe) {
 		super(nombre, domicilio, horario);	
 		this.jefe=jefe;
@@ -22,7 +26,7 @@ public class Empleado extends Persona {
 	}
 	
 	public void cobrar() {
-		System.out.println(getJefe()+" PAGAME HIJO DE PUTA");
+		System.out.println(getJefe()+" vengo por mi cheque");
 	}
 
 	

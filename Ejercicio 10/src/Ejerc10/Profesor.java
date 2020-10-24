@@ -4,6 +4,10 @@ public class Profesor extends Empleado {
 
 	private String carrera,ID;
 	
+	public Profesor(String nombre, String domicilio, String horario) {
+		super(nombre, domicilio, horario);
+	}
+	
 	public Profesor(String nom,String ID, String carr, String hora) {
 		super(nom,hora);
 		carrera=carr;

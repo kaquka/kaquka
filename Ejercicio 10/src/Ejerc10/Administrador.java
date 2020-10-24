@@ -8,8 +8,8 @@ public class Administrador extends Empleado{
 		super(nombre, domicilio, horario,jefe);
 	}
 	
-	public Administrador(String nombre, String domicilio) {
-		super(nombre, domicilio);
+	public Administrador(String nombre, String domicilio,String horario) {
+		super(nombre, domicilio,horario);
 	}
 	
 	public void setPuesto(String puest) {
@@ -20,13 +20,12 @@ public class Administrador extends Empleado{
 		return puesto;
 	}
 	
-	public String toString() {
-		return "Mi nombre es "+getNombre()+" vivo en "+getDomi()+" y soy "+getPuesto();
-		
+	public void administrar() {
+		System.out.println("Estoy administrando, a trabajar");
 	}
 	
-	public void administrar() {
-		System.out.println("A TRABAJAR HIJOS DE PUTA");
+	public String toString() {
+		return "Soy "+getNombre()+" y mi puesto es: "+puesto;
 	}
 	
 }
