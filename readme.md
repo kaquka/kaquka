@@ -14,11 +14,12 @@
 </ul>
 
 🌱 I'm currently learning:
-&ensp;![Tensorflow](https://img.shields.io/badge/-Tensorflow-000000?style=flat-square&logo=Tensorflow)
+&ensp;![Tensorflow]
+(https://img.shields.io/badge/-Tensorflow-000000?style=flat-square&logo=Tensorflow)
 
-:rocket: I'm use these tools:
+:rocket: I use these tools:
 
-&ensp;![Git](https://img.shields.io/badge/-Git-3E2C00?style=flat-square&logo=Git)&ensp;![Docker](https://img.shields.io/badge/-Docker-384D54?style=flat-square&logo=Docker)&ensp;![Webpack](https://img.shields.io/badge/-Webpack-1C78C0?style=flat-square&logo=Webpack)&ensp;![Visual Studio Code](https://img.shields.io/badge/-VsCode-2C2C32?style=flat-square&logo=visual-studio-code&logoColor=0078D7)
+&ensp;![Git](https://img.shields.io/badge/-Git-3E2C00?style=flat-square&logo=Git)&ensp;![Docker](https://img.shields.io/badge/-Docker-384D54?style=flat-square&logo=Docker)&ensp;![Visual Studio Code](https://img.shields.io/badge/-VsCode-2C2C32?style=flat-square&logo=visual-studio-code&logoColor=0078D7)
 
 #### A little more about me
 ```javascript
@@ -36,11 +37,11 @@ const badri = {
 #### Popular Projects
 <a href="https://github.com/kaquka/conektaBUAP">
   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
-  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=MrBlueBird2&repo=to-do-list-flask&theme=onedark" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=kaquka&repo=conektaBUAP&theme=onedark" />
 </a>    
 <a href="https://github.com/kaquka/battleshipProject">
   <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
-  <img align="center" src="https://github-readme-stats.anuraghazra1.vercel.app/api/pin/?username=kaquka&repo=kaquka.github.io&theme=onedark"/>
+  <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=kaquka&repo=kaquka.battleshipProject&theme=onedark"/>
 </a>
 
 #### I Spent My Time On
