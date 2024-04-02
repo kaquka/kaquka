@@ -14,8 +14,8 @@
 </ul>
 
 🌱 I'm currently learning:
-&ensp;![Tensorflow]
-(https://img.shields.io/badge/-Tensorflow-000000?style=flat-square&logo=Tensorflow)
+
+&ensp;![Tensorflow](https://img.shields.io/badge/-Tensorflow-000000?style=flat-square&logo=Tensorflow)
 
 :rocket: I use these tools:
 
