@@ -1,68 +1,88 @@
+### <p align="center">🚀 Welcome to my GitHub! 🚀</p>
+
 <p align="center">
-  <h1 align="center">Welcome to <a href="https://github.com/kaquka">Angel Avendaño</a>'s Profile 👋</h1>
+  <img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&weight=600&color=00FF99&size=22&center=true&vCenter=true&lines=Web+Developer+%7C+Front-End+Developer;UX/UI+Preacher;Exploring+Testing+Frameworks+%26+Methodologies;Continuous+Learning+%26+Innovation" />
 </p>
-<p align="center">
-  <a align="center" href="https://github.com/DenverCoder1/readme-typing-svg"><img src="https://readme-typing-svg.herokuapp.com?&font=IBM+Plex+Sans&color=FFFFFF&size=25&lines=Welcome+to+my+GitHub+Profile!;I'm+a+Full+Stack+developer;I'm+a+competitive+programmer" /></a>
-</p>
-<p>I’m a young programmer with more than a year of experience and an incredible curiosity about technological advances and motivation to always learn new things.</p>
-<img align="right" src="https://media.giphy.com/media/M9gbBd9nbDrOTu1Mqx/giphy.gif">
-<ul>
-  <li>👋 Hi, I’m Angel Avendaño</li>
-  <li>❤️ I love Creating websites and Programming in JS while my playlist playing in the background.</li>
-  <li>🕹️⚽ My favourite hobbies are play videogames and soccer with my friends.</li>
-  <!--<li>🧐 Portfolio Website, https://mrbluebird2.github.io</li>-->
-</ul>
+
+---
+
+## 🚀 About Me
+**Name:** Angel Avendaño Avalos 
+
+I’m a passionate **Web Developer, Frontend, Fullstack, and React Developer** with a strong enthusiasm for building efficient and scalable applications. I have a deep curiosity about **Testing and Automation** and love exploring new technologies.
+
+```javascript
+const Angel = {
+  name: "Ángel Avendaño",
+  role: "Fullstack Developer",
+  askMeAbout: [
+    "Web Development", 
+    "Front-End Development", 
+    "Back-End Development", 
+    "Software Architecture"
+  ],
+  technologies: {
+    frontend: ["React", "Next.js", "Angular", "Svelte", "Bootstrap", "Tailwind CSS"],
+    backend: ["Node.js", "Express", "AWS", "Firebase", "MySQL", "PostgreSQL", "MongoDB"],
+    devOps: ["Docker", "GitHub Actions", "CI/CD Pipelines"],
+    testing: ["Jest", "Cypress", "Playwright"],
+    agileMethodologies: ["Scrum",  "Kanban"]
+  },
+  contact: {
+    email: "avalos_luisangel@hotmail.com",
+    linkedin: "https://www.linkedin.com/in/angel-avenda%C3%B1o64a2bb239",
+    github: "https://github.com/kaquka"
+  }
+};
+
+```
+
+---
+
+### 🛠️ Tools & Technologies
 
 🌱 I'm currently learning:
 
-&ensp;![Tensorflow](https://img.shields.io/badge/-Tensorflow-000000?style=flat-square&logo=Tensorflow)&ensp;![Angular](https://img.shields.io/badge/-Angular-000000?style=flat-square&logo=Angular)
+&ensp;![Tensorflow](https://img.shields.io/badge/-Tensorflow-000000?style=flat-square&logo=Tensorflow)
+![Angular](https://img.shields.io/badge/-Angular-DD0031?style=flat-square&logo=angular&logoColor=white)
+
+
+#### 🔹 Programming & Scripting
+![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/-TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
+![Node.js](https://img.shields.io/badge/-Node.js-339933?style=flat-square&logo=node.js&logoColor=white)
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+
+#### 🔹 Frontend Frameworks & Libraries
+![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=black)
+![Next.js](https://img.shields.io/badge/-Next.js-000000?style=flat-square&logo=next.js&logoColor=white)
+![Svelte](https://img.shields.io/badge/-Svelte-FF3E00?style=flat-square&logo=svelte&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/-TailwindCSS-38B2AC?style=flat-square&logo=tailwind-css&logoColor=white)
+
+#### 🔹 Backend & Databases
+![Express.js](https://img.shields.io/badge/-Express.js-000000?style=flat-square&logo=express&logoColor=white)
+![Firebase](https://img.shields.io/badge/-Firebase-FFCA28?style=flat-square&logo=firebase&logoColor=black)
+![AWS](https://img.shields.io/badge/-AWS-232F3E?style=flat-square&logo=amazon-aws&logoColor=white)
 
 :rocket: I use these tools:
 
-&ensp;![Git](https://img.shields.io/badge/-Git-3E2C00?style=flat-square&logo=Git)&ensp;![Docker](https://img.shields.io/badge/-Docker-384D54?style=flat-square&logo=Docker)&ensp;![Visual Studio Code](https://img.shields.io/badge/-VsCode-2C2C32?style=flat-square&logo=visual-studio-code&logoColor=0078D7)
+![Git](https://img.shields.io/badge/-Git-3E2C00?style=flat-square&logo=Git)
+![Docker](https://img.shields.io/badge/-Docker-384D54?style=flat-square&logo=Docker)
+![Visual Studio Code](https://img.shields.io/badge/-VsCode-2C2C32?style=flat-square&logo=visual-studio-code&logoColor=0078D7)
 
-#### A little more about me
-```javascript
-const Angel = {
-  pronouns: "He" | "Him",
-  code: ["Javascript", "React", "HTML", "CSS", "C", "Java"],
-  askMeAbout: ["web dev", "frontend dev", "backend dev"],
-  technologies: {
-      frontend: ["HTML", "CSS", "JS", "Bootstrap"],
-      backend: ["AWS", "JS", "MySQL"],
-      agile_methodologies: ["Scrum"]
-  }
-}
-```
-#### Popular Projects
+---
+
+### 🔥 Some of My Projects:
 <a href="https://github.com/kaquka/conektaBUAP">
-  <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=kaquka&repo=conektaBUAP&theme=onedark" />
 </a>    
 <a href="https://github.com/kaquka/battleshipProject">
-  <!-- Change the `github-readme-stats.anuraghazra1.vercel.app` to `github-readme-stats.vercel.app`  -->
   <img align="center" src="https://github-readme-stats.vercel.app/api/pin/?username=kaquka&repo=battleshipProject&theme=onedark"/>
 </a>
 
-#### I Spent My Time On
-```text
-💬 Programming Lanuages:
-HTML                     3 hr 50 mins        ███████████░░░░░░░░░░░░░░   46% 
-CSS                      1 hr 5 mins         █████████░░░░░░░░░░░░░░░░   30% 
-Python                   59 mins             ██░░░░░░░░░░░░░░░░░░░░░░░   10% 
-GitHub & Git             57 mins             █░░░░░░░░░░░░░░░░░░░░░░░░   9.5%
+---
 
-🔥 Editors:
-VS Code                  4 Hours            ██████████████░░░░░░░░░░░   50% 
-
-💻 Operating System:
-Linux Ubuntu             1 hrs 0 mins      █████████████████████████   7.69%
-Windows 10               12 hrs 0 mins      █████████████████████████   92.31%
-```
-------
-<div align="center">
-  <h3><b>Can Connect With Me On 😄 </b></h3>
-</div>
+### 📫 Connect with Me:
 <p align="center">
 <a href="http://www.linkedin.com/in/angel-avenda%C3%B1o64a2bb239" target="_blank">
   <img align="center" alt="Angel Avendaño Avalos | Linkedin" width="24px" src="https://github.com/SatYu26/SatYu26/blob/master/Assets/Linkedin.svg" />
@@ -76,14 +96,13 @@ Windows 10               12 hrs 0 mins      ████████████
 <a href="mailto:avalos_luisangel@hotmail.com" >
   <img align="center" alt="Angel Avendaño Avalos | Gmail" width="26px" src="https://github.com/SatYu26/SatYu26/blob/master/Assets/Gmail.svg" />
 </a> &nbsp;&nbsp;
-<a href="https://www.facebook.com/angel.avalos.332/">
-    <img align="center" alt="Angel Avendaño Avalos | Facebook" width="24px" src="https://upload.wikimedia.org/wikipedia/en/thumb/0/04/Facebook_f_logo_%282021%29.svg/100px-Facebook_f_logo_%282021%29.svg.png" />
-</a> &nbsp;&nbsp;
-<p>
+</p>
+
+---
+
+🎯 **“Test early, test often, and automate everything possible.”**
 
 <p align="center">
   <img src="https://github.com/DHANOLA/DHANOLA/raw/output/github-contribution-grid-snake.svg" alt="snake"></center>
 </p>
 
-------
-Last Edited on: 02/04/2024.
