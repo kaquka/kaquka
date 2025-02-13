@@ -15,7 +15,7 @@
 
 🌱 I'm currently learning:
 
-&ensp;![Tensorflow](https://img.shields.io/badge/-Tensorflow-000000?style=flat-square&logo=Tensorflow)
+&ensp;![Tensorflow](https://img.shields.io/badge/-Tensorflow-000000?style=flat-square&logo=Tensorflow)&ensp;![Angular](https://img.shields.io/badge/-Angular-000000?style=flat-square&logo=Angular)
 
 :rocket: I use these tools:
 
