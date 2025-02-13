@@ -11,6 +11,9 @@
 
 I’m a passionate **Web Developer, Frontend, Fullstack, and React Developer** with a strong enthusiasm for building efficient and scalable applications. I have a deep curiosity about **Testing and Automation** and love exploring new technologies.
 
+<li>🧐 Portfolio Website, https://avendanospresentation.web.app/</li>
+<br>
+
 ```javascript
 const Angel = {
   name: "Ángel Avendaño",
@@ -84,7 +87,7 @@ const Angel = {
 
 ### 📫 Connect with Me:
 <p align="center">
-<a href="http://www.linkedin.com/in/angel-avenda%C3%B1o64a2bb239" target="_blank">
+<a href="www.linkedin.com/in/angel-avendaño-avalos" target="_blank">
   <img align="center" alt="Angel Avendaño Avalos | Linkedin" width="24px" src="https://github.com/SatYu26/SatYu26/blob/master/Assets/Linkedin.svg" />
 </a> &nbsp;&nbsp;
 <a href="https://x.com/qwerty_078" target="_blank">
