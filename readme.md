@@ -23,7 +23,7 @@
 
 #### A little more about me
 ```javascript
-const badri = {
+const Angel = {
   pronouns: "He" | "Him",
   code: ["Javascript", "React", "HTML", "CSS", "C", "Java"],
   askMeAbout: ["web dev", "frontend dev", "backend dev"],
